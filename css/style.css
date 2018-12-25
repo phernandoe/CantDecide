@@ -1,0 +1,41 @@
+body{
+    color: #FFFFFF;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+#form {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+#flavortext { 
+    position: relative;
+    bottom: 50px;
+    font-size: 25px;
+}
+
+#userinput {
+    position: relative;
+    bottom: 50px;
+    width: 50%;
+}
+
+#submit {
+    position: relative;
+    bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 50px;
+    font-variant-caps: all-petite-caps;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    transition: 1000ms;
+}
+
+a:hover {
+    letter-spacing: -8px;
+}
