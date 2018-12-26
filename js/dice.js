@@ -12,6 +12,12 @@ var searchParams = new URLSearchParams(window.location.search);
 var words = searchParams.get("words");
 var faces = words.split(" ");
 
+for (i = 0; i < 6; i++){
+    if (i >= faces.length){
+        faces.push("Nada?");
+    }
+}
+
 //Creating textures
 var texturesArray = [];
 
@@ -44,7 +50,7 @@ var cube = new THREE.Mesh(geometry, materials);
 scene.add(cube);
 cube.position.set(0,5,0);
 
-//Rotation
+//Rotation set up
 var perfectRotation = 1.55;
 var secretNumber = 1.684850176042474e-16;
 var restingPos = Math.floor(Math.random() * 10) * perfectRotation;
