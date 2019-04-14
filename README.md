@@ -4,7 +4,7 @@ Web app that chooses for you
 Small web app built using [Three.js](https://threejs.org/)
  to simulate a dice roll.
 
-## What is does:
+## What it does:
 Based on user input, CantDecide will generate a 3 dimensional dice with each side containing words typed in from the user.
 Then, a random dice roll will be simulated and the user will be presented with one of the options.
 
