@@ -20,11 +20,30 @@ body{
     position: relative;
     bottom: 50px;
     width: 50%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    font-size: 1.5rem;
 }
 
 #submit {
     position: relative;
     bottom: 50px;
+    background-color: #000000;
+    border: 1px solid #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 150ms;
+}
+
+#submit:hover, #submit:focus {
+    background-color: #FFFFFF;
+    border-color: #000000;
+    color: #000000;
 }
 
 a {
